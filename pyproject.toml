@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-tg-bots"
+version = "0.1.0"
+description = ""
+authors = ["David-Roklem <roklem@mail.ru>"]
+readme = "README.md"
+packages = [{include = "test_tg_bots"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
