@@ -1,4 +1,4 @@
-# DB imitation
+# DB immitation
 user = {'in_game': False,
         'secret_number': None,
         'attempts': None,
